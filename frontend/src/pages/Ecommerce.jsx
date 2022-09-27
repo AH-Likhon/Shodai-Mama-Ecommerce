@@ -102,6 +102,21 @@ const Ecommerce = () => {
                                     data={SparklineAreaData}
                                 />
                             </div>
+                            <div className="mt-10">
+                                <Button
+                                    color='white'
+                                    bgColor='blue'
+                                    text='Download Reprot'
+                                    borderRadius='10px'
+                                />
+                            </div>
+                        </div>
+
+                        <div>
+                            <Stacked
+                                height='360px'
+                                width='320px'
+                            />
                         </div>
                     </div>
                 </div>
