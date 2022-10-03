@@ -15,6 +15,7 @@ const Orders = () => {
                 allowExcelExport
                 allowPdfExport
                 contextMenuItems={contextMenuItems}
+            // backgroundColor={currentMode === 'Dark' ? '#33373E' : '#fff'}
             >
                 <ColumnsDirective>
                     {
